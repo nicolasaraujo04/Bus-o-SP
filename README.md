@@ -198,9 +198,8 @@ busao-sp/
 
 | Nome | RM | Principais contribuições |
 |---|---|---|
-| NOME DO INTEGRANTE 1 | RM00000 | Cliente da API Olho Vivo, busca de linhas e mapa da linha |
-| NOME DO INTEGRANTE 2 | RM00000 | GPS, algoritmo de pontos próximos, telas "Perto de mim" e "Próximos ônibus" |
-| NOME DO INTEGRANTE 3 | RM00000 | Notificações, vibração, monitor de alertas, tela de alertas e vídeo |
+| NICOLAS ARAUJO DE OLIVEIRA | RM566780 | Cliente da API Olho Vivo, busca de linhas e mapa da linha, Notificações, vibração, monitor de alertas, tela de alertas e vídeo |
+| GABRIEL LIMA DA SILVA | RM568436 | GPS, algoritmo de pontos próximos, telas "Perto de mim" e "Próximos ônibus" |
 
 A divisão detalhada está em [`INTEGRANTES.txt`](INTEGRANTES.txt).
 
