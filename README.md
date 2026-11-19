@@ -110,7 +110,7 @@ Base: `https://api.olhovivo.sptrans.com.br/v2.1`
 
 ```bash
 # 1. Clonar o repositório
-git clone COLE_AQUI_A_URL_DO_REPOSITORIO
+git clone https://github.com/nicolasaraujo04/Bus-o-SP
 cd busao-sp
 
 # 2. Configurar o token da SPTrans
