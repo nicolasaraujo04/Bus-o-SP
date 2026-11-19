@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.log
+.DS_Store
+
+# token da SPTrans — nunca subir para o GitHub
+.env
+.env.local

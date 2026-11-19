@@ -1,0 +1,15 @@
+{
+  "name": "busao-sp",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "setup": "expo install react react-native expo-router expo-constants expo-linking expo-status-bar expo-location expo-notifications expo-keep-awake react-native-maps react-native-safe-area-context react-native-screens @expo/vector-icons && expo install typescript @types/react -- --save-dev",
+    "start": "expo start",
+    "tunnel": "expo start --tunnel",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "^58.0.0"
+  }
+}

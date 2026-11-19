@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Busão SP",
+    "slug": "busao-sp",
+    "scheme": "busaosp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Usamos sua localização para encontrar os pontos de ônibus perto de você e avisar quando estiver chegando ao ponto de descida."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "VIBRATE",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Usamos sua localização para encontrar os pontos de ônibus perto de você e avisar quando estiver chegando ao ponto de descida."
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+GLOBAL SOLUTION 2026.2 - Cross-Platform Application Development
+App: Busão SP
+
+Integrantes do grupo e o que cada um fez
+----------------------------------------
+
+1) NOME COMPLETO - RM XXXXX
+   - Cliente da API Olho Vivo (src/api/), autenticação e tratamento de erros
+   - Tela "Linhas" e tela da linha com mapa (app/(tabs)/linhas.tsx, app/linha/[codigo].tsx)
+
+2) NOME COMPLETO - RM XXXXX
+   - GPS: permissões, posição e algoritmo de pontos próximos (src/servicos/localizacao.ts,
+     src/servicos/paradasProximas.ts, src/hooks/useLocalizacao.ts)
+   - Telas "Perto de mim" e "Próximos ônibus" com "Hora de sair" (app/(tabs)/index.tsx, app/parada/[codigo].tsx)
+
+3) NOME COMPLETO - RM XXXXX
+   - Notificações, vibração e monitor de alertas (src/servicos/notificacoes.ts, src/contexto/MonitorContext.tsx)
+   - Tela "Alertas", tela "Sobre", README e gravação do vídeo
+
+(Ajustem a divisão para refletir o que cada um realmente fez.)
